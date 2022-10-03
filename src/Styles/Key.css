@@ -1,0 +1,72 @@
+/* V2 */
+
+.key.prefix__st1 {
+    fill: #a0147e;
+}
+.key.prefix__st2 {
+    font-family: 'Gilroy Bold';
+}
+.key.prefix__st3 {
+    font-size: 12px;
+}
+.key.prefix__st4 {
+    fill: #515254;
+}
+.key.prefix__st5 {
+    font-family: 'MinionProMedium';
+}
+.key.prefix__st7,
+.key.prefix__st8 {
+    fill: none;
+    stroke: #000;
+    stroke-width: 0.2528;
+}
+.key.prefix__st8 {
+    stroke-linecap: round;
+}
+.key.prefix__st9 {
+    font-family: 'Gilroy Medium';
+}
+.key.prefix__st11 {
+    clip-path: url(#prefix__SVGID_2_);
+}
+.key.prefix__st11,
+.key.prefix__st12,
+.key.prefix__st13 {
+    fill: none;
+    stroke: #000;
+    stroke-width: 0.25;
+}
+.key.prefix__st13 {
+    stroke-linecap: round;
+}
+
+/* V1 */
+/* .key.prefix__st1 {
+    fill: none;
+    stroke: #000;
+    stroke-width: 0.2528;
+}
+.key.prefix__st3 {
+    fill: #515254;
+}
+.key.prefix__st4 {
+    font-family: 'Gilroy Medium';
+}
+.key.prefix__st5 {
+    font-size: 12px;
+}
+.key.prefix__st7 {
+    fill: #a0147e;
+}
+.key.prefix__st8 {
+    font-family: 'Gilroy Bold';
+}
+.key.prefix__st9 {
+    font-family: 'MinionProMedium';
+}
+.key.prefix__st12 {
+    fill: none;
+    stroke: #000;
+    stroke-width: 0.25;
+} */

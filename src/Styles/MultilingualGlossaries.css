@@ -1,0 +1,74 @@
+.glossaries-container {
+    margin-top: 0;
+}
+
+.multilingual-table-container {
+    border-bottom: solid 2px #8f1e74;
+    border-left: solid 2px #8f1e74;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 0.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+/* .vocab {
+  border-right: solid 2px #8f1e74;
+} */
+
+.column.topic.home-language {
+    width: 50%;
+}
+
+.column.topic.multi {
+    width: 25%;
+}
+
+.topic-header.right {
+    border-right: none;
+}
+
+.header-text.topic-header-text.multi-right {
+    text-align: center;
+    padding-left: 0;
+}
+
+.info-row.gloss {
+    height: 3em;
+    padding: 0;
+}
+
+.header-row.multi {
+    height: 4.5em;
+}
+.header-text.topic-header-text.multi-right.critical-text {
+    padding-top: 1.5em;
+}
+
+.header-text.topic-header-text.home-text {
+    padding-top: 1.5em;
+}
+
+@media (min-width: 1044px) {
+    .multilingual-table-container {
+        margin-left: 6em;
+        margin-right: 6em;
+    }
+}
+
+@media (min-width: 1608px) {
+    .header-row.multi {
+        height: 3em;
+    }
+
+    .header-text.topic-header-text.multi-right.critical-text {
+        padding-top: 0.75em;
+    }
+
+    .header-text.topic-header-text.home-text {
+        padding-top: 0.75em;
+    }
+}

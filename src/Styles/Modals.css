@@ -1,0 +1,184 @@
+.centerFlex {
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+.outerModal {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.innerModal {
+  padding: 1em;
+  box-shadow: 0px 0px 12px -2px;
+  background-color: white;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-row {
+  width: 100%;
+  text-align: right;
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: black;
+  transition: 0.3s;
+}
+
+.close-button:hover {
+  color: #8f1e74;
+}
+
+.x-icon {
+  height: 2em;
+}
+
+.modal-pic {
+  height: 30em;
+}
+
+.modal-pic.anchor-charts {
+  height: 22em;
+}
+
+.modal-pic.notice {
+  height: 22em;
+}
+
+.innerModal.multi-glossaries {
+  position: relative;
+  bottom: 3em;
+}
+
+.innerModal.parent {
+  position: relative;
+  bottom: 3em;
+}
+
+.innerModal.multi-summaries {
+  position: relative;
+  bottom: 3em;
+}
+
+.innerModal.authentic {
+  position: relative;
+  bottom: 3em;
+}
+
+.innerModal.summaries {
+  position: relative;
+  bottom: 3em;
+}
+
+.innerModal.text-sketch {
+  position: relative;
+  bottom: 3em;
+}
+
+@media (min-width: 1210px) {
+  .modal-pic {
+    height: 35em;
+  }
+
+  .modal-pic.anchor-charts {
+    height: 22em;
+  }
+
+  .modal-pic.notice {
+    height: 22em;
+  }
+}
+
+@media (min-width: 1250px) {
+  .modal-pic {
+    height: 35em;
+  }
+
+  .modal-pic.anchor-charts {
+    height: 26em;
+  }
+
+  .modal-pic.notice {
+    height: 26em;
+  }
+
+  .innerModal.multi-glossaries {
+    position: relative;
+    bottom: 2em;
+  }
+
+  .innerModal.parent {
+    position: relative;
+    bottom: 2em;
+  }
+
+  .innerModal.multi-summaries {
+    position: relative;
+    bottom: 2em;
+  }
+
+  .innerModal.authentic {
+    position: relative;
+    bottom: 2em;
+  }
+
+  .innerModal.summaries {
+    position: relative;
+    bottom: 2em;
+  }
+
+  .innerModal.text-sketch {
+    position: relative;
+    bottom: 2em;
+  }
+}
+@media (min-width: 1422px) {
+  .modal-pic {
+    height: 35em;
+    width: 350px;
+  }
+
+  .modal-pic.anchor-charts {
+    height: 24em;
+    width: 350px;
+  }
+
+  .modal-pic.notice {
+    height: 24;
+    width: 350px;
+  }
+}
+
+@media (min-width: 1590px) {
+  .modal-pic {
+    height: 42em;
+    width: 420px;
+  }
+
+  .modal-pic.anchor-charts {
+    height: 32em;
+    width: 420px;
+  }
+
+  .modal-pic.notice {
+    height: 32em;
+    width: 420px;
+  }
+}

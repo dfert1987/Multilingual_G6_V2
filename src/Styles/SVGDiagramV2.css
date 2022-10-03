@@ -1,0 +1,91 @@
+.prefix__st0,
+.prefix__st1 {
+    fill: none;
+    stroke: #a0147e;
+    stroke-width: 0.5;
+}
+.prefix__st1 {
+    fill: #ebd9e7;
+}
+.prefix__st2 {
+    fill: #a0147e;
+}
+.prefix__st3 {
+    font-family: 'Gilroy Bold';
+}
+.prefix__st4 {
+    font-size: 12px;
+}
+.prefix__st5 {
+    fill: #da521f;
+}
+.prefix__st6,
+.prefix__st7 {
+    fill: none;
+    stroke: #a0147e;
+    stroke-width: 0.4665;
+}
+.prefix__st7 {
+    fill: #fff;
+    stroke-width: 0.511;
+}
+.prefix__st8 {
+    fill: #00babe;
+}
+.prefix__st9 {
+    clip-path: url(#prefix__SVGID_2_);
+}
+.prefix__st10,
+.prefix__st11,
+.prefix__st9 {
+    fill: none;
+    stroke: #000;
+    stroke-width: 0.25;
+}
+.prefix__st11 {
+    stroke-linecap: round;
+}
+.prefix__st12 {
+    fill: #f99d1c;
+}
+.prefix__st13 {
+    fill: #fff;
+}
+.prefix__st14 {
+    font-size: 14px;
+}
+.prefix__st16 {
+    clip-path: url(#prefix__SVGID_4_);
+    fill: none;
+    stroke: #000;
+    stroke-width: 0.25;
+}
+.prefix__st17 {
+    fill: #f37167;
+}
+.prefix__st18 {
+    stroke-width: 0.2528;
+}
+.prefix__st18,
+.prefix__st19,
+.prefix__st20 {
+    fill: none;
+    stroke: #000;
+}
+.prefix__st19 {
+    stroke-width: 0.2528;
+    stroke-linecap: round;
+}
+.prefix__st20 {
+    clip-path: url(#prefix__SVGID_6_);
+    stroke-width: 0.25;
+}
+.prefix__st21 {
+    fill: #fff;
+    stroke: #a0147e;
+    stroke-width: 0.5;
+}
+
+.click {
+    cursor: pointer;
+}

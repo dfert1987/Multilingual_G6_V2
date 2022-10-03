@@ -1,0 +1,113 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+}
+
+.key-main-diagram {
+    max-width: 50%;
+    position: relative;
+    bottom: 1.5em;
+}
+
+.main-diagram {
+    width: 100%;
+}
+
+.diagram-container {
+    padding-right: 1em;
+    width: 60%;
+}
+
+.above-diagram {
+    max-width: 50%;
+    padding-bottom: 1.5em;
+}
+
+.modals-container {
+    width: 30%;
+    position: relative;
+    bottom: 3em;
+}
+
+.above-diagram-text {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.bold-above-diagram {
+    color: #8f1e74;
+    font-family: 'Gilroy Extra Bold';
+}
+
+.instructions {
+    margin-bottom: 2em;
+    font-family: 'Gilroy Bold';
+    font-size: 1.1em;
+}
+
+.main-diagram {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.key {
+    height: 5em;
+    position: relative;
+    bottom: 5em;
+}
+
+@media (min-width: 1042px) {
+    .main-page {
+        padding-left: 6em;
+        padding-right: 6em;
+    }
+}
+
+@media (min-width: 1270px) {
+    .diagram-container {
+        padding-right: 3em;
+    }
+}
+
+@media (min-width: 1422px) {
+    .modals-container {
+        width: 40%;
+    }
+    .diagram-container {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1300px) {
+}
+
+@media (min-width: 1400px) {
+}
+
+@media (min-width: 1450px) {
+    .above-diagram-text {
+        margin-top: 1em;
+    }
+    .above-diagram {
+        margin-bottom: 0;
+    }
+
+    .diagram-container {
+        padding-right: 6em;
+    }
+}
+
+@media (min-width: 1590px) {
+    .modals-container {
+        width: 40%;
+    }
+    .diagram-container {
+        width: 70%;
+    }
+}

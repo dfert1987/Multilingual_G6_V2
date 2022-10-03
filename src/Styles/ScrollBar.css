@@ -1,0 +1,30 @@
+.scroll-bar {
+  background-color: #ebd9e7;
+}
+
+.choices-container {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: left;
+  padding-left: 2em;
+}
+
+.navButton {
+  padding-right: 2em;
+  font-family: "Gilroy Extra Bold";
+  font-size: 1.25em;
+  cursor: pointer;
+  color: #8f1e74;
+  transition: 0.3s;
+}
+
+.navButton:hover {
+  color: white;
+}
+
+@media (min-width: 1044px) {
+  .choices-container {
+    padding-left: 6em;
+  }
+}

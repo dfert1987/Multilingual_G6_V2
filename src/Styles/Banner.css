@@ -1,0 +1,164 @@
+.banner-container {
+    background-color: #8f1e74;
+    padding-top: 1em;
+    width: 100%;
+}
+
+.nav-item.grey {
+    color: #b59daf;
+}
+.nav-item {
+    position: relative;
+    top: 0.15em;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1.25em;
+    padding-right: 2em;
+}
+
+.grade-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    position: relative;
+    top: 0.45em;
+    padding-right: 0.33em;
+}
+
+.grade {
+    color: white;
+    font-family: 'Gilroy';
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-left: 0.75em;
+    position: relative;
+    margin-top: 0;
+    top: 1.5em;
+}
+
+.number {
+    color: white;
+    font-family: 'Gilroy Extra Bold';
+    margin: 0;
+    font-size: 5em;
+    padding-left: 0.2em;
+    margin-top: 0.05em;
+}
+
+.main-title {
+    color: white;
+    font-family: 'Gilroy Extra Bold';
+    font-size: 2.25em;
+    margin: 0;
+    padding-left: 0.1em;
+    padding-right: 1em;
+    padding-top: 0.75em;
+    width: 50%;
+}
+
+.navigation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-align: right;
+    padding-left: 0.5em;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding-top: 3.5em;
+    transition: 0.3s;
+    font-size: 1.5em;
+}
+
+.nav-link:hover {
+    color: #b59daf;
+}
+
+.nav-item {
+    font-family: 'Gilroy Bold';
+    margin: 0;
+}
+
+.grade-and-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link.left {
+    padding-right: 1.5em;
+    margin: 0;
+}
+
+@media (min-width: 1044px) {
+    .nav-link {
+        font-size: 1.5em;
+        padding-top: 3.4em;
+    }
+    .text-container {
+        padding-left: 6em;
+        padding-right: 6em;
+    }
+    .main-title {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1349px) {
+    .nav-link {
+        font-size: 2em;
+        padding-top: 4.875em;
+    }
+
+    .number {
+        font-size: 8em;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .grade {
+        position: relative;
+        top: 1em;
+        font-size: 2em;
+        padding-left: 0;
+        padding-top: 0;
+        margin-left: 0;
+    }
+
+    .main-title {
+        font-size: 4em;
+        padding-bottom: 0.2em;
+        padding-top: 0.75em;
+        width: 100%;
+    }
+
+    .grade-container {
+        position: relative;
+        text-align: center;
+        top: 1.7em;
+    }
+}
+
+@media (min-width: 1626px) {
+    .main-title {
+        padding-top: 0.5em;
+    }
+    .nav-link {
+        padding-top: 1.89em;
+    }
+    .number {
+        font-size: 4em;
+    }
+    .grade-container {
+        top: 0;
+        padding-top: 0.6em;
+    }
+    .grade {
+        font-size: 1em;
+    }
+}

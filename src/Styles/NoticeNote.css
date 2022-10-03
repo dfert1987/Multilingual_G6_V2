@@ -1,0 +1,60 @@
+.notice-note-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.notice-note-table-container {
+  border-bottom: solid 2px #8f1e74;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 0.5em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+}
+
+.notice-note-table-container.bookmark {
+  border-bottom: none;
+}
+
+.column.topic.note-charts-big {
+  width: 50%;
+  border-left: #8f1e74 2px solid;
+}
+
+.column.topic.note-charts-pdfs {
+  width: 16.6666666667%;
+}
+
+.header-row.note.topic-header.small.spanish {
+  border-right: none;
+}
+
+.header-text.topic-header-text.charts-text.pdf {
+  padding-left: 0;
+}
+
+.header-row.note.topic-header.small {
+  text-align: center;
+}
+
+.withBottom {
+  border-bottom: #8f1e74 2px solid;
+}
+
+.header-row.note.topic-header.small.right {
+  border-right: #8f1e74 2px solid;
+}
+
+.column.topic.note-charts-bookmark-big {
+  border-left: #8f1e74 2px solid;
+}
+
+@media (min-width: 1044px) {
+  .notice-note-table-container {
+    margin-left: 6em;
+    margin-right: 6em;
+  }
+}

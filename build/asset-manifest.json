@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.fa7eaac3.css",
+    "main.js": "./static/js/main.d8ecb72f.js",
+    "static/media/TextSketch_pop.png": "./static/media/TextSketch_pop.e8179b974386c2e4dd57.png",
+    "static/media/HMHFreshLit_pop.png": "./static/media/HMHFreshLit_pop.9c52f5e9da8b53d699a5.png",
+    "static/media/NoticeNote_pop.png": "./static/media/NoticeNote_pop.f9c824052f9e906bc537.png",
+    "static/media/AuthenticText_pop.png": "./static/media/AuthenticText_pop.e524f2beef191ac224e2.png",
+    "static/media/SumAdapted_pop.png": "./static/media/SumAdapted_pop.31ad4c17a452807ff1a9.png",
+    "static/media/Letters_pop.png": "./static/media/Letters_pop.7f0cfdadee760e7fedff.png",
+    "static/media/Glossaries_pop.png": "./static/media/Glossaries_pop.db38fe6bb01115b595d8.png",
+    "static/media/AnchorChart_pop.png": "./static/media/AnchorChart_pop.f1b2c46cd409b15f646b.png",
+    "static/media/SPUnit.png": "./static/media/SPUnit.a6c18842a77a6dc9ac35.png",
+    "static/media/Summaries_pop.png": "./static/media/Summaries_pop.0be7617029686a163acb.png",
+    "static/media/MinionProMedium.ttf": "./static/media/MinionProMedium.3d60b2d10e6ebb4e906d.ttf",
+    "static/media/italic_normal.woff": "./static/media/italic_normal.119a48231abf74bb6801.woff",
+    "static/media/normal_normal.woff": "./static/media/normal_normal.0e3630fa9066bff87634.woff",
+    "static/media/FreshLitGreen2.svg": "./static/media/FreshLitGreen2.630ad964f682a1de5b68e9dc7790a417.svg",
+    "static/media/TOCEditIcon.svg": "./static/media/TOCEditIcon.d624be5201037e035dbd02d93f53216e.svg",
+    "index.html": "./index.html",
+    "main.fa7eaac3.css.map": "./static/css/main.fa7eaac3.css.map",
+    "main.d8ecb72f.js.map": "./static/js/main.d8ecb72f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa7eaac3.css",
+    "static/js/main.d8ecb72f.js"
+  ]
+}
